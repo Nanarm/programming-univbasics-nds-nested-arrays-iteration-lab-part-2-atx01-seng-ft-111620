@@ -7,6 +7,8 @@ forst = 0
     minimum_temp = []
       while seqond < src[forst].count do
         puts
+        minimum_temp << src[forst][seqond]
+      end
       seqond += 1
       end
       forst += 1
