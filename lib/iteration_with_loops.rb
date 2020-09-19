@@ -5,8 +5,8 @@ outter_array = 0
     minimum_temp = []
     
     while inner_array < src[outter_array].count do
-        smallest = inner_array.min
-        minimum_temp << smallest
+        # smallest = inner_array.min
+        # minimum_temp << smallest
       inner_array += 1
        if src[outter_array][inner_array].min?
         minimum_temp << src[outter_array][inner_array]
