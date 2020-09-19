@@ -6,9 +6,7 @@ while count < array_of_arrays.length do
  
   inner_count = 0
   while inner_count < array_of_arrays[count].length do
-    small = = array_of_arrays.map {|a| a.min}
-    small << array_of_arrays[count][inner_count]
-    small = index_value.min 
+    small = array_of_arrays.map {|a| a.min}
      results_array << small
      
     inner_count += 1
