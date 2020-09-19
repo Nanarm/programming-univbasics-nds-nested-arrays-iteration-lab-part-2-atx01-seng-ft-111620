@@ -6,7 +6,7 @@ while count < array_of_arrays.length do
  
   inner_count = 0
   while inner_count < array_of_arrays[count].length do
-    small = [].min
+    small = []
     small << array_of_arrays[count][inner_count]
     small = index_value.min 
      results_array << small
