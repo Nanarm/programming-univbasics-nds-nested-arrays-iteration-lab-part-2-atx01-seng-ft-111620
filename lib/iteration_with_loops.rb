@@ -7,9 +7,9 @@ forst = 0
     minimum_temp = []
     lowest_temp_of_nested_array = -1
       while seqond < src[forst].count do
-       
-        minimum_temp << src[forst][seqond].min
-      
+        if src[].min
+        minimum_temp << src[forst][seqond]
+      end
       seqond += 1
       end
       forst += 1
