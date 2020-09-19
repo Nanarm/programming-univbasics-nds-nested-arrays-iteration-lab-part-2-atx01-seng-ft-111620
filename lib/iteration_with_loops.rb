@@ -6,6 +6,8 @@ forst = 0
     seqond = 
       while yyyy do
         puts
+      seqond += 1
       end
+      forst += 1
   end
 end
