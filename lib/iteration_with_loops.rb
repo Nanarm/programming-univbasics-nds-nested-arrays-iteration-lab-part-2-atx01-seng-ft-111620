@@ -6,7 +6,8 @@ while count < array_of_arrays.length do
  
   inner_count = 0
   while inner_count < array_of_arrays[count].length do
-    results_array << array_of_arrays[count][inner_count] # pushes every element into an array
+    minimums = array_of_arrays[count][inner_count] 
+     results_array << minimums
     inner_count += 1
   end
  
