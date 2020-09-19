@@ -5,8 +5,8 @@ results_array = [] # new array
 while count < array_of_arrays.length do
  
   inner_count = 0
-  index_value = []
   while inner_count < array_of_arrays[count].length do
+    index_value = []
     index_value << array_of_arrays[count][inner_count]
     small = minimums.min 
      results_array << small
