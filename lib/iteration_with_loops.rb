@@ -4,12 +4,12 @@ def find_min_in_nested_arrays(src)
 forst = 0 
   while xxxx do
     seqond = 0 
-    thord = []
+    minimum_temp = []
       while yyyy do
         puts
       seqond += 1
       end
       forst += 1
   end
-  thord
+ minimum_temp
 end
