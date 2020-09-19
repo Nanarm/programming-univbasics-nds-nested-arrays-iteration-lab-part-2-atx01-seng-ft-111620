@@ -11,7 +11,7 @@ outter_array = 0
        smallest= src[outter_array][inner_array].min
         minimum_temp << smallest
     end
-    end
+   
     outter_array += 1
   end
  minimum_temp
