@@ -9,7 +9,7 @@ forst = 0
       while seqond < src[forst].count do
        
         minimum_temp << src[forst][seqond].min
-      end
+      
       seqond += 1
       end
       forst += 1
