@@ -9,7 +9,7 @@ outter_array = 0
         # minimum_temp << smallest
       inner_array += 1
        smallest= src[outter_array][inner_array].min
-        minimum_temp << src[outter_array][inner_array]
+        minimum_temp << smallest
     end
     end
     outter_array += 1
