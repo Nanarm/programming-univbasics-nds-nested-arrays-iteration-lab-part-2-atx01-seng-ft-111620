@@ -7,7 +7,6 @@ outter_array = 0
       while inner_array < src[outter_array].count do
         smallest = inner_array.min
         minimum_temp << smallest
-      end
       inner_array += 1
       end
       outter_array += 1
