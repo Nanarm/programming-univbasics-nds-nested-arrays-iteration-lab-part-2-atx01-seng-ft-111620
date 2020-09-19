@@ -5,7 +5,7 @@ forst = 0
   while src.length > forst do
     seqond = 0 
     minimum_temp = []
-      while yyyy do
+      while  do
         puts
       seqond += 1
       end
