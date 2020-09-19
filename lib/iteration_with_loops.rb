@@ -8,9 +8,9 @@ outter_array = 0
     lowest_temp_of_nested_array = -1
       while inner_array < src[outter_array].count do
         if seqond.min
-        minimum_temp << src[outter_array][seqond]
+        minimum_temp << src[outter_array][inner_array]
       end
-      seqond += 1
+      inner_array += 1
       end
       outter_array += 1
   end
