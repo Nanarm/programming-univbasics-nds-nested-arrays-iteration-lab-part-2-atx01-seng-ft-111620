@@ -8,7 +8,7 @@ while count < array_of_arrays.length do
   while inner_count < array_of_arrays[count].length do
     index_value = []
     index_value << array_of_arrays[count][inner_count]
-    small = minimums.min 
+    small = index_value.min 
      results_array << small
     inner_count += 1
   end
