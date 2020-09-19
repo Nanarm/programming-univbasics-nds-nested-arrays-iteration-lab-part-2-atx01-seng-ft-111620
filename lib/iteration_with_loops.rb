@@ -8,7 +8,7 @@ outter_array = 0
         # smallest = inner_array.min
         # minimum_temp << smallest
     
-       smallest= inner_array.min
+       smallest = inner_array.min
         minimum_temp << smallest
         inner_array += 1
     end
