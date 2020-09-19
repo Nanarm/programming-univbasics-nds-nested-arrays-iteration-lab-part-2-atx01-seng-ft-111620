@@ -1,19 +1,17 @@
 def find_min_in_nested_arrays(src)
-outter_array = 0 
-  while src.length > outter_array do
-    inner_array = 0 
-    minimum_temp = []
-    
-    while inner_array < src[outter_array].count do
-        # smallest = inner_array.min
-        # minimum_temp << smallest
-    
-       smallest = inner_array.min
-        minimum_temp << smallest
-        inner_array += 1
-    end
-   
-    outter_array += 1
+count = 0
+results_array = [] # new array
+ 
+while count < array_of_arrays.length do
+ 
+  inner_count = 0
+  while inner_count < array_of_arrays[count].length do
+    results_array << array_of_arrays[count][inner_count] # pushes every element into an array
+    inner_count += 1
   end
- minimum_temp
+ 
+  count += 1
+end
+ 
+results_array
 end
