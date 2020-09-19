@@ -11,7 +11,7 @@ outter_array = 0
        if src[outter_array][inner_array].min?
         minimum_temp << src[outter_array][inner_array]
     end
-      
+    end
     outter_array += 1
   end
  minimum_temp
